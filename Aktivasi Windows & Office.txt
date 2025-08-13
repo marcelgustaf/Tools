@@ -1,0 +1,3 @@
+## Buka Command di Powershell Administrator
+irm https://get.activated.win | iex
+
