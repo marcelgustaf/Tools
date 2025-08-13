@@ -1,14 +1,33 @@
-## Melihat Jenis Instsllasi Windows
+## Command Melihat Jenis Edisi Windows Server
 DISM.exe /Online /Get-TargetEditions
 
-## Mengubah Aktivasi Server Standard 2xxx Evaluation to Server Standard 2xxx
+## Mengubah Aktivasi Server Standard Evaluation to Server Standard
 DISM /online /Set-Edition:ServerStandard /ProductKey:xxxx-xxxx-xxxx-xxxx-xxxx /AcceptEula
 
-## Cara Aktivasi 
+## Tahapan Aktivasi 
 slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
 slmgr /skms [server]:[port]
 slmgr /ato
 slmgr /dlv
+
+## Pilihan Server KMS 
+* kms8.msguides.com
+* kms.digiboy.ir
+* kms.ddns.net
+* kms.shuax.com
+* kensol263.imwork.net:1688
+* kms789.com
+* dimanyakms.sytes.net:1688
+* kms.03k.org:1688
+* 54.223.212.31
+* kms.cnlic.com
+* hq1.chinancce.com
+* kms.chinancce.com
+* franklv.ddns.net
+* k.zpale.com
+* m.zpale.com
+* mvg.zpale.com
+* xykz.f3322.org
 
 ## Licence Key
 Windows Server 2022 Standard        VDYBN-27WPP-V4HQT-9VMD4-VMK7H
@@ -45,22 +64,3 @@ Windows 10 Enterprise N LTSB 2016   QFFDN-GRT3P-VKWWX-X7T3R-8B639
 
 Windows 10 Enterprise LTSC 2019/2021    M7XTQ-FN8P6-TTKYV-9D4CC-J462D
 Windows 10 Enterprise N LTSC 2019/2021  92NFX-8DJQP-P6BBQ-THF9C-7CG2H
-
-## Online KMS Server Host Address
-* kms8.msguides.com
-* kms.digiboy.ir
-* kms.ddns.net
-* kms.shuax.com
-* kensol263.imwork.net:1688
-* kms789.com
-* dimanyakms.sytes.net:1688
-* kms.03k.org:1688
-* 54.223.212.31
-* kms.cnlic.com
-* hq1.chinancce.com
-* kms.chinancce.com
-* franklv.ddns.net
-* k.zpale.com
-* m.zpale.com
-* mvg.zpale.com
-* xykz.f3322.org
